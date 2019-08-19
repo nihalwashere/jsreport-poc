@@ -1,5 +1,10 @@
 const fs = require("fs");
-const jsreport = require('jsreport')();
+// const jsreport = require('jsreport')();
+
+const jsreport = require('jsreport-core')({
+  templatingEngines: { strategy: 'in-process' }
+})
+
 const htmlTemplate = require("./template");
 const data = require("./data");
 
@@ -13,7 +18,14 @@ if (process.env.JSREPORT_CLI) {
       template: {
         content: htmlTemplate,
         engine: 'handlebars',
-        recipe: 'html-to-xlsx'
+        recipe: 'html-to-xlsx',
+        helpers: {
+          foo: () => { return "WORLD!!!" },
+          getRowspanForCosts: (costs) => {
+            console.log("getRowspanForCosts() -> costs : ", costs);
+            return costs.length;
+          }
+        },
       },
       data
     }).then((resp) => {

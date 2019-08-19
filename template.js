@@ -82,148 +82,148 @@ module.exports = `
 
         {{#each jobRequest}}
         <tr>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{propertyname}}</div>
             </td>            
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{address}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{city}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{countrycode}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{bedrooms}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{bathrooms}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{propertytype}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{accessinfo}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{garbageinfo}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{parkinginfo}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{wifiname}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{wifipassword}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{wifidescription}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{importantinfo}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{job_title}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{jobType}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{totalCost}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{billableTime}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{totalMileage}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{jobsenddate}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{schedulestart}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{scheduleend}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{scheduletime}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{scheduleduration}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{actualstartdate}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{actualenddate}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{actualtime}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{actualstarttime}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{actualendtime}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{duration}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{statusofrequest}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{msgtoserviceprovider}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{offeredprice}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{offeredpricecurrency}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{canceledbyme}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{canceledbyserviceprovider}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{name}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{timedate}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{viewed}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{response}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{msgfromserviceprovider}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{slides}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{tasks}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{verificationphotos}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{problemsreported}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{problemslist}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{title}}</div>
             </td>
-            <td rowspan="4">
+            <td rowspan={{getRowspanForCosts costs}}>
                 <div>{{description}}</div>
             </td>    
 

@@ -45,18 +45,6 @@ module.exports = {
                     "type": "mileage",
                     "value": 145,
                     "date": "2019-08-02T05:50:44.679Z",
-                },
-                {
-                    "reporterName": "Nihal Test",
-                    "type": "duration",
-                    "value": 15,
-                    "date": "2019-08-02T05:50:52.707Z",
-                },
-                {
-                    "reporterName": "Nihal Test",
-                    "type": "cost",
-                    "value": 150,
-                    "date": "2019-08-02T05:51:01.157Z",
                 }
             ],
             "totalCost": 90,
@@ -303,24 +291,6 @@ module.exports = {
                     "type": "mileage",
                     "value": 10,
                     "date": "2019-07-16T06:38:49.975Z",
-                },
-                {
-                    "reporterName": "Nihal Test",
-                    "type": "mileage",
-                    "value": 145,
-                    "date": "2019-08-02T05:50:44.679Z",
-                },
-                {
-                    "reporterName": "Nihal Test",
-                    "type": "duration",
-                    "value": 15,
-                    "date": "2019-08-02T05:50:52.707Z",
-                },
-                {
-                    "reporterName": "Nihal Test",
-                    "type": "cost",
-                    "value": 150,
-                    "date": "2019-08-02T05:51:01.157Z",
                 }
             ],
             "totalCost": 150,
@@ -403,12 +373,6 @@ module.exports = {
                     "type": "duration",
                     "value": 15,
                     "date": "2019-08-02T05:50:52.707Z",
-                },
-                {
-                    "reporterName": "Nihal Test",
-                    "type": "cost",
-                    "value": 150,
-                    "date": "2019-08-02T05:51:01.157Z",
                 }
             ],
             "totalCost": 0,

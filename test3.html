@@ -1,209 +1,233 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Cost</title>
+    <title>Handlebars</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <script src='handlebars-v4.1.2.js'></script>
 </head>
+
 <body>
+    <div id="costData"></div>
+
+    <script id="costTemplate" type="text/x-handlebars-template">
         <style>
                 th {
                     font-size: 20px;
                 }
-                
-                td, th {
+        
+                td,
+                th {
                     background-color: #abe81b;
                     border: 3px solid #455bd0;
                     padding: 10px;
                     text-align: center;
                 }
-            </style>
-            <table>
-                <tr>
-                    <th>Name</th>
-                    <th>Age</th>
-                    <th>Job</th>
-                    <th>Cost Added By</th>
-                    <th>Cost Type</th>
-                    <th>Cost Value</th>
-                </tr>
-                {{#each people}}
-                    <tr>            
-                        <td rowspan="4">{{name}}</td>
-                        <td rowspan="4">{{age}}</td>
-                        <td rowspan="4">{{job}}</td> 
-                        {{#each costs}}
-                                <td>{{reporterName}}</td>
-                                <td>{{type}}</td>
-                                <td>{{value}}</td>
-                            </tr>
-                        {{/each}}
-                {{/each}}
-            </table>
-            
-            
-            
-            {
-                "people": [{
+        </style>
+
+        <h2>My name is : {{name}}</h2>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Job</th>
+                <th>Cost Added By</th>
+                <th>Cost Type</th>
+                <th>Cost Value</th>
+            </tr>
+            {{#each people}}
+        <tr>
+                <td rowspan="4">{{ name }}</td>
+                <td rowspan="4">{{ age }}</td>
+                <td rowspan="4">{{ job }}</td>
+                {{#each costs}}
+            <td>{{ reporterName }}</td>
+                <td>{{ type }}</td>
+                <td>{{ value }}</td>
+            </tr>
+            {{/ each}}
+        {{/ each}}
+    </table>
+    </script>
+
+    <script type="text/javascript">
+        var costInfo = document.getElementById("costTemplate").innerHTML;
+        var template = Handlebars.compile(costInfo);
+        var data = template({
+            name: "Nihal",
+            people: [
+                {
                     "name": "Bob",
                     "age": 34,
+                    "job": "Economist",
                     "costs": [
-                    {
-                        "reporterName": "Nihal Test",
-                        "type": "mileage",
-                        "value": 10
-                    },
-                    {
-                        "reporterName": "Nihal Test",
-                        "type": "mileage",
-                        "value": 145            
-                    },
-                    {
-                        "reporterName": "Nihal Test",
-                        "type": "duration",
-                        "value": 15            
-                    },
-                    {
-                        "reporterName": "Nihal Test",
-                        "type": "cost",
-                        "value": 150            
-                    }
-                ],
-                    "job": "Economist"
-                }, {
+                        {
+                            "reporterName": "Nihal Test",
+                            "type": "mileage",
+                            "value": 10
+                        },
+                        {
+                            "reporterName": "Nihal Test",
+                            "type": "mileage",
+                            "value": 145
+                        },
+                        {
+                            "reporterName": "Nihal Test",
+                            "type": "duration",
+                            "value": 15
+                        },
+                        {
+                            "reporterName": "Nihal Test",
+                            "type": "cost",
+                            "value": 150
+                        }
+                    ],
+                },
+                {
                     "name": "Maria",
                     "age": 29,
                     "job": "Stylist",
                     "costs": [
-                    {
-                        "reporterName": "Nihal Test",
-                        "type": "mileage",
-                        "value": 10
-                    },
-                    {
-                        "reporterName": "Nihal Test",
-                        "type": "mileage",
-                        "value": 145            
-                    },
-                    {
-                        "reporterName": "Nihal Test",
-                        "type": "duration",
-                        "value": 15            
-                    },
-                    {
-                        "reporterName": "Nihal Test",
-                        "type": "cost",
-                        "value": 150            
-                    }
-                ]
-                }, {
+                        {
+                            "reporterName": "Nihal Test",
+                            "type": "mileage",
+                            "value": 10
+                        },
+                        {
+                            "reporterName": "Nihal Test",
+                            "type": "mileage",
+                            "value": 145
+                        },
+                        {
+                            "reporterName": "Nihal Test",
+                            "type": "duration",
+                            "value": 15
+                        },
+                        {
+                            "reporterName": "Nihal Test",
+                            "type": "cost",
+                            "value": 150
+                        }
+                    ]
+                },
+                {
                     "name": "Junior",
                     "age": 24,
                     "job": "Developer",
                     "costs": [
-                    {
-                        "reporterName": "Nihal Test",
-                        "type": "mileage",
-                        "value": 10
-                    },
-                    {
-                        "reporterName": "Nihal Test",
-                        "type": "mileage",
-                        "value": 145            
-                    },
-                    {
-                        "reporterName": "Nihal Test",
-                        "type": "duration",
-                        "value": 15            
-                    },
-                    {
-                        "reporterName": "Nihal Test",
-                        "type": "cost",
-                        "value": 150            
-                    }
-                ]
-                }, {
+                        {
+                            "reporterName": "Nihal Test",
+                            "type": "mileage",
+                            "value": 10
+                        },
+                        {
+                            "reporterName": "Nihal Test",
+                            "type": "mileage",
+                            "value": 145
+                        },
+                        {
+                            "reporterName": "Nihal Test",
+                            "type": "duration",
+                            "value": 15
+                        },
+                        {
+                            "reporterName": "Nihal Test",
+                            "type": "cost",
+                            "value": 150
+                        }
+                    ]
+                },
+                {
                     "name": "Carmen",
                     "age": 36,
                     "job": "Lawyer",
-                "costs": [
-                    {
-                        "reporterName": "Nihal Test",
-                        "type": "mileage",
-                        "value": 10
-                    },
-                    {
-                        "reporterName": "Nihal Test",
-                        "type": "mileage",
-                        "value": 145            
-                    },
-                    {
-                        "reporterName": "Nihal Test",
-                        "type": "duration",
-                        "value": 15            
-                    },
-                    {
-                        "reporterName": "Nihal Test",
-                        "type": "cost",
-                        "value": 150            
-                    }
-                ]
-                }, {
+                    "costs": [
+                        {
+                            "reporterName": "Nihal Test",
+                            "type": "mileage",
+                            "value": 10
+                        },
+                        {
+                            "reporterName": "Nihal Test",
+                            "type": "mileage",
+                            "value": 145
+                        },
+                        {
+                            "reporterName": "Nihal Test",
+                            "type": "duration",
+                            "value": 15
+                        },
+                        {
+                            "reporterName": "Nihal Test",
+                            "type": "cost",
+                            "value": 150
+                        }
+                    ]
+                },
+                {
                     "name": "Marco",
                     "age": 48,
                     "job": "Doctor",
                     "costs": [
-                    {
-                        "reporterName": "Nihal Test",
-                        "type": "mileage",
-                        "value": 10
-                    },
-                    {
-                        "reporterName": "Nihal Test",
-                        "type": "mileage",
-                        "value": 145            
-                    },
-                    {
-                        "reporterName": "Nihal Test",
-                        "type": "duration",
-                        "value": 15            
-                    },
-                    {
-                        "reporterName": "Nihal Test",
-                        "type": "cost",
-                        "value": 150            
-                    }
-                ]
-                }, {
+                        {
+                            "reporterName": "Nihal Test",
+                            "type": "mileage",
+                            "value": 10
+                        },
+                        {
+                            "reporterName": "Nihal Test",
+                            "type": "mileage",
+                            "value": 145
+                        },
+                        {
+                            "reporterName": "Nihal Test",
+                            "type": "duration",
+                            "value": 15
+                        },
+                        {
+                            "reporterName": "Nihal Test",
+                            "type": "cost",
+                            "value": 150
+                        }
+                    ]
+                },
+                {
                     "name": "Jack",
                     "age": 27,
                     "job": "Architect",
                     "costs": [
-                    {
-                        "reporterName": "Nihal Test",
-                        "type": "mileage",
-                        "value": 10
-                    },
-                    {
-                        "reporterName": "Nihal Test",
-                        "type": "mileage",
-                        "value": 145            
-                    },
-                    {
-                        "reporterName": "Nihal Test",
-                        "type": "duration",
-                        "value": 15            
-                    },
-                    {
-                        "reporterName": "Nihal Test",
-                        "type": "cost",
-                        "value": 150            
-                    }
-                ]
-                }]
-            }
+                        {
+                            "reporterName": "Nihal Test",
+                            "type": "mileage",
+                            "value": 10
+                        },
+                        {
+                            "reporterName": "Nihal Test",
+                            "type": "mileage",
+                            "value": 145
+                        },
+                        {
+                            "reporterName": "Nihal Test",
+                            "type": "duration",
+                            "value": 15
+                        },
+                        {
+                            "reporterName": "Nihal Test",
+                            "type": "cost",
+                            "value": 150
+                        }
+                    ]
+                }
+            ]
+        });
+
+        document.getElementById("costData").innerHTML += data;
+    </script>
+
 </body>
+
 </html>
