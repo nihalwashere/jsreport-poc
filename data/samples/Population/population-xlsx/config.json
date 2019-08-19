@@ -1,0 +1,15 @@
+{
+    "shortid": "BkJt9tnql",
+    "name": "population-xlsx",
+    "folder": {
+        "shortid": "0ppeLV"
+    },
+    "creationDate": {
+        "$$date": 1564755145163
+    },
+    "modificationDate": {
+        "$$date": 1564755145163
+    },
+    "_id": "mD1YqLh3j5UdrQbq",
+    "$entitySet": "xlsxTemplates"
+}

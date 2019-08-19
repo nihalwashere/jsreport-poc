@@ -1,0 +1,3 @@
+2019-08-05T07:32:37.839Z - error: Error when processing render request No table element(s) found in html Error: No table element(s) found in html
+    at convert (/Users/apple/Desktop/Properly/jsreport/node_modules/html-to-xlsx/lib/conversion.js:57:13)
+    at <anonymous>

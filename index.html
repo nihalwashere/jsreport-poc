@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Test</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+    <script src="./handlebars-v4.1.2.js"></script>
+
+    <style>
+        table {
+            width: 100%;
+            margin: 20px auto;
+            table-layout: auto;
+        }
+
+        table,
+        td,
+        th {
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            border: solid 1px;
+            text-align: center;
+        }
+    </style>
+
+    <table>
+        <tr>
+            <th colspan="3" scope="colgroup">Costs</th>
+        </tr>
+        <tr>
+            <th scope="col">Cost Type</th>
+            <th scope="col">Cost Value</th>
+            <th scope="col">Cost Added By</th>
+        </tr>
+        <tr>
+            <th scope="col">mileage</th>
+            <th scope="col">14</th>
+            <th scope="col">me</th>
+        </tr>
+    </table>
+
+    <script id="entry-template" type="text/x-handlebars-template">
+        <div class="entry">
+          <h1>{{title}}</h1>          
+          <div class="body">
+            {{body}}
+          </div>
+        </div>
+    </script>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
