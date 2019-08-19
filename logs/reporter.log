@@ -1424,3 +1424,186 @@
 2019-08-06T09:40:36.673Z - debug: Executing recipe html-to-xlsx
 2019-08-06T09:40:38.743Z - debug: Skipping storing report.
 2019-08-06T09:40:38.744Z - info: Rendering request 1 finished in 2348 ms
+2019-08-19T04:39:22.502Z - info: Initializing jsreport@2.5.0 in development mode using configuration file: jsreport.config.json
+2019-08-19T04:39:22.507Z - info: Searching for available extensions in /Users/apple/Desktop/Properly/jsreport/
+2019-08-19T04:39:22.518Z - info: Extensions location cache not found, crawling directories
+2019-08-19T04:39:24.799Z - info: Found 31 extensions
+2019-08-19T04:39:24.843Z - debug: Writing extension locations cache to /var/folders/29/g7ysh0f92qv85drs5m4jzmbw0000gn/T/jsreport/core/locations.json
+2019-08-19T04:39:24.844Z - debug: Discovered 31 extensions
+2019-08-19T04:39:24.941Z - info: Setting http-server strategy for rendering
+2019-08-19T04:39:25.322Z - info: Using extension import-export@1.3.0
+2019-08-19T04:39:25.703Z - info: Using extension tags@2.2.0
+2019-08-19T04:39:25.709Z - info: Using extension templates@2.2.0
+2019-08-19T04:39:25.713Z - info: Using extension jsrender@2.0.0
+2019-08-19T04:39:25.714Z - debug: Extension authentication@2.2.3 is disabled, skipping
+2019-08-19T04:39:25.715Z - info: Using extension handlebars@2.0.2
+2019-08-19T04:39:25.719Z - info: Using extension cli@2.0.7
+2019-08-19T04:39:25.720Z - info: Using extension freeze@2.0.0
+2019-08-19T04:39:25.723Z - info: Using extension debug@2.0.2
+2019-08-19T04:39:25.730Z - info: Using extension express@2.4.0
+2019-08-19T04:39:26.060Z - info: Using extension pdf-utils@1.4.0
+2019-08-19T04:39:26.411Z - info: Using extension data@2.1.0
+2019-08-19T04:39:26.412Z - info: Using extension chrome-pdf@1.4.0
+2019-08-19T04:39:26.510Z - debug: Chrome strategy is dedicated-process
+2019-08-19T04:39:26.510Z - info: Using extension child-templates@1.2.0
+2019-08-19T04:39:26.517Z - info: Using extension browser-client@2.1.1
+2019-08-19T04:39:26.520Z - info: Using extension licensing@2.1.0
+2019-08-19T04:39:26.576Z - info: Using extension authorization@2.2.4
+2019-08-19T04:39:26.581Z - debug: Extension authorization@2.2.4 was disabled
+2019-08-19T04:39:26.581Z - info: Using extension version-control@1.2.3
+2019-08-19T04:39:26.682Z - info: Using extension reports@2.2.0
+2019-08-19T04:39:26.687Z - info: Using extension text@2.0.0
+2019-08-19T04:39:26.688Z - info: Using extension base@2.0.2
+2019-08-19T04:39:26.690Z - info: Using extension studio@2.5.1
+2019-08-19T04:39:26.711Z - debug: studio request logs are enabled (flush interval: 2000)
+2019-08-19T04:39:26.712Z - info: Using extension fs-store@2.4.1
+2019-08-19T04:39:27.123Z - debug: Extension fs-store@2.4.1 was disabled
+2019-08-19T04:39:27.123Z - info: Using extension scheduling@2.0.7
+2019-08-19T04:39:27.221Z - info: Using extension scripts@2.1.0
+2019-08-19T04:39:27.230Z - info: Using extension assets@1.1.3
+2019-08-19T04:39:27.244Z - info: Using extension html-to-xlsx@2.3.1
+2019-08-19T04:39:27.441Z - info: html-to-xlsx detected chrome as available html engine
+2019-08-19T04:39:27.441Z - info: Using extension xlsx@2.0.10
+2019-08-19T04:39:27.635Z - info: Using extension sample-template@2.3.0
+2019-08-19T04:39:27.638Z - info: Using extension resources@2.0.3
+2019-08-19T04:39:27.640Z - info: Using extension public-templates@2.0.1
+2019-08-19T04:39:27.641Z - debug: Extension public-templates@2.0.1 was disabled
+2019-08-19T04:39:27.641Z - info: Using memory provider for template store. The saved templates will be lost after restart
+2019-08-19T04:39:27.699Z - info: Creating default express app.
+2019-08-19T04:39:27.724Z - info: jsreport server successfully started on http port: 5488
+2019-08-19T04:39:27.725Z - info: Verifying license key free
+2019-08-19T04:39:27.726Z - info: Using free license
+2019-08-19T04:39:27.732Z - debug: Creating samples is disabled
+2019-08-19T04:39:27.734Z - info: reporter initialized
+2019-08-19T04:39:27.751Z - info: Starting rendering request 1 (user: null)
+2019-08-19T04:39:27.752Z - info: Rendering anonymous template { recipe: html-to-xlsx, engine: handlebars }
+2019-08-19T04:39:27.753Z - debug: Inline data specified.
+2019-08-19T04:39:27.753Z - debug: Resources not defined for this template.
+2019-08-19T04:39:27.760Z - debug: Base url not specified, skipping its injection.
+2019-08-19T04:39:27.761Z - debug: Rendering engine handlebars
+2019-08-19T04:39:27.970Z - debug: Compiled template not found in the cache, compiling
+2019-08-19T04:39:27.973Z - debug: Executing recipe html-to-xlsx
+2019-08-19T04:39:29.774Z - debug: Skipping storing report.
+2019-08-19T04:39:29.775Z - info: Rendering request 1 finished in 2024 ms
+2019-08-19T04:40:53.998Z - info: Initializing jsreport@2.5.0 in development mode using configuration file: jsreport.config.json
+2019-08-19T04:40:53.999Z - info: Searching for available extensions in /Users/apple/Desktop/Properly/jsreport/
+2019-08-19T04:40:54.019Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/apple/Desktop/Properly/jsreport/
+2019-08-19T04:40:54.078Z - info: Found 31 extensions
+2019-08-19T04:40:54.105Z - debug: Writing extension locations cache to /var/folders/29/g7ysh0f92qv85drs5m4jzmbw0000gn/T/jsreport/core/locations.json
+2019-08-19T04:40:54.107Z - debug: Discovered 31 extensions
+2019-08-19T04:40:54.204Z - info: Setting http-server strategy for rendering
+2019-08-19T04:40:54.512Z - info: Using extension import-export@1.3.0
+2019-08-19T04:40:54.753Z - info: Using extension tags@2.2.0
+2019-08-19T04:40:54.757Z - info: Using extension templates@2.2.0
+2019-08-19T04:40:54.760Z - info: Using extension jsrender@2.0.0
+2019-08-19T04:40:54.761Z - debug: Extension authentication@2.2.3 is disabled, skipping
+2019-08-19T04:40:54.761Z - info: Using extension handlebars@2.0.2
+2019-08-19T04:40:54.763Z - info: Using extension cli@2.0.7
+2019-08-19T04:40:54.764Z - info: Using extension freeze@2.0.0
+2019-08-19T04:40:54.766Z - info: Using extension debug@2.0.2
+2019-08-19T04:40:54.769Z - info: Using extension express@2.4.0
+2019-08-19T04:40:54.939Z - info: Using extension pdf-utils@1.4.0
+2019-08-19T04:40:55.214Z - info: Using extension data@2.1.0
+2019-08-19T04:40:55.216Z - info: Using extension chrome-pdf@1.4.0
+2019-08-19T04:40:55.313Z - debug: Chrome strategy is dedicated-process
+2019-08-19T04:40:55.315Z - info: Using extension child-templates@1.2.0
+2019-08-19T04:40:55.324Z - info: Using extension browser-client@2.1.1
+2019-08-19T04:40:55.328Z - info: Using extension licensing@2.1.0
+2019-08-19T04:40:55.386Z - info: Using extension authorization@2.2.4
+2019-08-19T04:40:55.391Z - debug: Extension authorization@2.2.4 was disabled
+2019-08-19T04:40:55.391Z - info: Using extension version-control@1.2.3
+2019-08-19T04:40:55.498Z - info: Using extension reports@2.2.0
+2019-08-19T04:40:55.503Z - info: Using extension text@2.0.0
+2019-08-19T04:40:55.505Z - info: Using extension base@2.0.2
+2019-08-19T04:40:55.507Z - info: Using extension studio@2.5.1
+2019-08-19T04:40:55.526Z - debug: studio request logs are enabled (flush interval: 2000)
+2019-08-19T04:40:55.527Z - info: Using extension fs-store@2.4.1
+2019-08-19T04:40:55.934Z - debug: Extension fs-store@2.4.1 was disabled
+2019-08-19T04:40:55.935Z - info: Using extension scheduling@2.0.7
+2019-08-19T04:40:56.012Z - info: Using extension scripts@2.1.0
+2019-08-19T04:40:56.020Z - info: Using extension assets@1.1.3
+2019-08-19T04:40:56.036Z - info: Using extension html-to-xlsx@2.3.1
+2019-08-19T04:40:56.231Z - info: html-to-xlsx detected chrome as available html engine
+2019-08-19T04:40:56.231Z - info: Using extension xlsx@2.0.10
+2019-08-19T04:40:56.412Z - info: Using extension sample-template@2.3.0
+2019-08-19T04:40:56.416Z - info: Using extension resources@2.0.3
+2019-08-19T04:40:56.418Z - info: Using extension public-templates@2.0.1
+2019-08-19T04:40:56.423Z - debug: Extension public-templates@2.0.1 was disabled
+2019-08-19T04:40:56.424Z - info: Using memory provider for template store. The saved templates will be lost after restart
+2019-08-19T04:40:56.502Z - info: Creating default express app.
+2019-08-19T04:40:56.538Z - info: jsreport server successfully started on http port: 5488
+2019-08-19T04:40:56.539Z - info: Verifying license key free
+2019-08-19T04:40:56.540Z - info: Using free license
+2019-08-19T04:40:56.546Z - debug: Creating samples is disabled
+2019-08-19T04:40:56.548Z - info: reporter initialized
+2019-08-19T04:40:56.566Z - info: Starting rendering request 1 (user: null)
+2019-08-19T04:40:56.568Z - info: Rendering anonymous template { recipe: html-to-xlsx, engine: handlebars }
+2019-08-19T04:40:56.568Z - debug: Inline data specified.
+2019-08-19T04:40:56.569Z - debug: Resources not defined for this template.
+2019-08-19T04:40:56.575Z - debug: Base url not specified, skipping its injection.
+2019-08-19T04:40:56.576Z - debug: Rendering engine handlebars
+2019-08-19T04:40:56.777Z - debug: Compiled template not found in the cache, compiling
+2019-08-19T04:40:56.780Z - debug: Executing recipe html-to-xlsx
+2019-08-19T04:40:58.509Z - debug: Skipping storing report.
+2019-08-19T04:40:58.510Z - info: Rendering request 1 finished in 1944 ms
+2019-08-19T08:34:44.115Z - info: Initializing jsreport@2.5.0 in development mode using configuration file: jsreport.config.json
+2019-08-19T08:34:44.117Z - info: Searching for available extensions in /Users/apple/Desktop/Properly/jsreport/
+2019-08-19T08:34:44.132Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/apple/Desktop/Properly/jsreport/
+2019-08-19T08:34:44.158Z - info: Found 31 extensions
+2019-08-19T08:34:44.184Z - debug: Writing extension locations cache to /var/folders/29/g7ysh0f92qv85drs5m4jzmbw0000gn/T/jsreport/core/locations.json
+2019-08-19T08:34:44.187Z - debug: Discovered 31 extensions
+2019-08-19T08:34:44.268Z - info: Setting http-server strategy for rendering
+2019-08-19T08:34:44.661Z - info: Using extension import-export@1.3.0
+2019-08-19T08:34:45.022Z - info: Using extension tags@2.2.0
+2019-08-19T08:34:45.036Z - info: Using extension templates@2.2.0
+2019-08-19T08:34:45.040Z - info: Using extension jsrender@2.0.0
+2019-08-19T08:34:45.043Z - debug: Extension authentication@2.2.3 is disabled, skipping
+2019-08-19T08:34:45.043Z - info: Using extension handlebars@2.0.2
+2019-08-19T08:34:45.047Z - info: Using extension cli@2.0.7
+2019-08-19T08:34:45.048Z - info: Using extension freeze@2.0.0
+2019-08-19T08:34:45.051Z - info: Using extension debug@2.0.2
+2019-08-19T08:34:45.054Z - info: Using extension express@2.4.0
+2019-08-19T08:34:45.286Z - info: Using extension pdf-utils@1.4.0
+2019-08-19T08:34:45.650Z - info: Using extension data@2.1.0
+2019-08-19T08:34:45.652Z - info: Using extension chrome-pdf@1.4.0
+2019-08-19T08:34:45.793Z - debug: Chrome strategy is dedicated-process
+2019-08-19T08:34:45.794Z - info: Using extension child-templates@1.2.0
+2019-08-19T08:34:45.802Z - info: Using extension browser-client@2.1.1
+2019-08-19T08:34:45.806Z - info: Using extension licensing@2.1.0
+2019-08-19T08:34:45.891Z - info: Using extension authorization@2.2.4
+2019-08-19T08:34:45.898Z - debug: Extension authorization@2.2.4 was disabled
+2019-08-19T08:34:45.899Z - info: Using extension version-control@1.2.3
+2019-08-19T08:34:46.045Z - info: Using extension reports@2.2.0
+2019-08-19T08:34:46.060Z - info: Using extension text@2.0.0
+2019-08-19T08:34:46.061Z - info: Using extension base@2.0.2
+2019-08-19T08:34:46.064Z - info: Using extension studio@2.5.1
+2019-08-19T08:34:46.096Z - debug: studio request logs are enabled (flush interval: 2000)
+2019-08-19T08:34:46.097Z - info: Using extension fs-store@2.4.1
+2019-08-19T08:34:46.642Z - debug: Extension fs-store@2.4.1 was disabled
+2019-08-19T08:34:46.642Z - info: Using extension scheduling@2.0.7
+2019-08-19T08:34:46.729Z - info: Using extension scripts@2.1.0
+2019-08-19T08:34:46.738Z - info: Using extension assets@1.1.3
+2019-08-19T08:34:46.769Z - info: Using extension html-to-xlsx@2.3.1
+2019-08-19T08:34:46.996Z - info: html-to-xlsx detected chrome as available html engine
+2019-08-19T08:34:46.996Z - info: Using extension xlsx@2.0.10
+2019-08-19T08:34:47.241Z - info: Using extension sample-template@2.3.0
+2019-08-19T08:34:47.253Z - info: Using extension resources@2.0.3
+2019-08-19T08:34:47.255Z - info: Using extension public-templates@2.0.1
+2019-08-19T08:34:47.256Z - debug: Extension public-templates@2.0.1 was disabled
+2019-08-19T08:34:47.257Z - info: Using memory provider for template store. The saved templates will be lost after restart
+2019-08-19T08:34:47.311Z - info: Creating default express app.
+2019-08-19T08:34:47.347Z - info: jsreport server successfully started on http port: 5488
+2019-08-19T08:34:47.348Z - info: Verifying license key free
+2019-08-19T08:34:47.350Z - info: Using free license
+2019-08-19T08:34:47.358Z - debug: Creating samples is disabled
+2019-08-19T08:34:47.362Z - info: reporter initialized
+2019-08-19T08:34:47.382Z - info: Starting rendering request 1 (user: null)
+2019-08-19T08:34:47.385Z - info: Rendering anonymous template { recipe: html-to-xlsx, engine: handlebars }
+2019-08-19T08:34:47.386Z - debug: Inline data specified.
+2019-08-19T08:34:47.387Z - debug: Resources not defined for this template.
+2019-08-19T08:34:47.401Z - debug: Base url not specified, skipping its injection.
+2019-08-19T08:34:47.402Z - debug: Rendering engine handlebars
+2019-08-19T08:34:47.663Z - debug: Compiled template not found in the cache, compiling
+2019-08-19T08:34:47.665Z - debug: Executing recipe html-to-xlsx
+2019-08-19T08:34:53.467Z - debug: Skipping storing report.
+2019-08-19T08:34:53.473Z - info: Rendering request 1 finished in 6089 ms
